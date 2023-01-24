@@ -1,0 +1,22 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: md/intro
+# defaults:
+  # numbered: True
+parts:
+
+  - caption: Ca data
+    chapters:
+      - file: md/2023
+        sections:
+          - file: Ca/Statistical-Map/2sample-ttest
+          #- file: nb/Statistical-Map/LinearRegressionModel-1sample-ttest
+
+  #- caption: BOLD data
+    #chapters:
+      #- file: md/2023
+        #sections:
+          #- file: nb/Statistical-Map/2sample-ttest
+          #- file: nb/Statistical-Map/LinearRegressionModel-1sample-ttest
